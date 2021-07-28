@@ -79,7 +79,9 @@ button {
 .about .content-turn .about-content p,
 .about .content-turn .about-content h5,
 .enterprise .enterprise-content .paragraph-enterprise-startup p,
-.startup .enterprise-content .paragraph-enterprise-startup p {
+.startup .enterprise-content .paragraph-enterprise-startup p,
+#particles-js .header-left-turn .header-content h6,
+#particles-js .header-left-turn .header-content .header-btns {
     font-family: LT-Bukra-light;
 }
 
@@ -113,8 +115,14 @@ form .contactus-btn,
     font-family: Montserrat;
 }
 
-.ourprocess .all-progress-content .progress-container .Container-progessbar li h2 {
+.ourprocess .all-progress-content .progress-container .Container-progessbar li h2,
+#particles-js .header-left-turn .header-content h2,
+#particles-js .header-left-turn .header-content h4 {
     font-family: Roboto-Medium;
+}
+
+#particles-js #navbarNavDropdown .navbar-nav .nav-item .nav-link {
+    font-family: Karla-Bold;
 }
 
 
@@ -206,8 +214,7 @@ form .contactus-btn,
 }
 
 #particles-js #navbarNavDropdown .navbar-nav .nav-item .nav-link {
-    font-family: LT-Bukra-light;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: capitalize;
     color: #fff;
     transition: all 1s ease-in-out;
@@ -242,21 +249,18 @@ form .contactus-btn,
 }
 
 #particles-js .header-left-turn .header-content h4 {
-    font-family: roboto;
     font-size: 33px;
     line-height: 45px;
     color: #fff;
 }
 
 #particles-js .header-left-turn .header-content h2 {
-    font-family: roboto;
-    font-size: 61px;
+    font-size: 60px;
     line-height: 50px;
     color: #fff;
 }
 
 #particles-js .header-left-turn .header-content h6 {
-    font-family: LT-Bukra-light;
     font-size: 11px;
     line-height: 15px;
     color: #fff;
@@ -270,7 +274,6 @@ form .contactus-btn,
 }
 
 #particles-js .header-left-turn .header-content .header-btns {
-    font-family: LT-Bukra-light;
     font-size: 14px;
     color: #fff;
     outline: 0;
