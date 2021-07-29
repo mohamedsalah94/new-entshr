@@ -403,7 +403,7 @@ form .contactus-btn,
 }
 
 .about .content-turn .about-content {
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 .about .content-turn .about-content h3 {
@@ -427,29 +427,30 @@ form .contactus-btn,
 
 .about .about-all-content .img-turn img {
     -webkit-animation: rightbottomtop 8s infinite linear;
+    width: 450px;
 }
 
 @-webkit-keyframes rightbottomtop {
     0% {
-        -webkit-transform: translate(10px, -30px);
+        -webkit-transform: translate(30px, -50px);
     }
     20% {
-        -webkit-transform: translate(20px, -45px);
+        -webkit-transform: translate(40px, -65px);
     }
     40% {
-        -webkit-transform: translate(30px, -60px);
+        -webkit-transform: translate(50px, -80px);
     }
     60% {
-        -webkit-transform: translate(40px, -80px);
+        -webkit-transform: translate(60px, -100px);
     }
     80% {
-        -webkit-transform: translate(30px, -60px);
+        -webkit-transform: translate(50px, -80px);
     }
     90% {
-        -webkit-transform: translate(20px, -45px);
+        -webkit-transform: translate(40px, -65px);
     }
     100% {
-        -webkit-transform: translate(10px, -30px);
+        -webkit-transform: translate(30px, -50px);
     }
 }
 
@@ -519,6 +520,7 @@ form .contactus-btn,
     align-items: center;
     color: #747d8c;
     transition: all .5s ease-in-out;
+    margin-right: 15px;
 }
 
 
@@ -1057,11 +1059,12 @@ form .contactus-btn,
     flex-wrap: nowrap;
     position: absolute;
     z-index: 9999;
-    left: 40%;
-    top: 17.5%;
+    left: 41%;
+    top: 20.3%;
     transform: translateX(-50%);
     -webkit-animation: rotation 8s infinite linear;
     animation: rotation 8s infinite linear;
+    width: 250;
 }
 
 .custommer .customer-bg-img .first-img .astronaut-heart {
@@ -1499,6 +1502,12 @@ footer {
 /* Media Query */
 
 @media (max-width: 1200px) {
+    /* Start Customer */
+    .custommer .customer-bg-img .first-img .astronaut {
+        left: 40%;
+        top: 20.3%;
+        width: 215px;
+    }
     /* Start Our Work */
     .ourwork-center-column img {
         height: 425px;
@@ -1513,7 +1522,7 @@ footer {
     /* Start Customer */
     .custommer .customer-bg-img .first-img .astronaut {
         left: 39%;
-        width: 200px;
+        width: 180px;
         top: 20.5%;
     }
     .custommer .customer-bg-img .first-img .customer-paragraph {
@@ -1669,7 +1678,7 @@ footer {
     }
     /* Start About */
     .about .img-turn img {
-        width: 424px;
+        width: 400px !important;
         position: relative;
         left: -54px;
     }
@@ -1718,9 +1727,9 @@ footer {
         z-index: 999;
     }
     .custommer .customer-bg-img .first-img .astronaut {
-        left: 36%;
-        width: 185px;
-        top: 16.5%;
+        left: 39%;
+        width: 161px;
+        top: 18.5%;
     }
     /* Start Our Work */
     .ourwork .ourwork-first-third-column .first-third-column-work,
@@ -1869,7 +1878,30 @@ footer {
     .about .img-turn img {
         margin: auto;
         display: block;
-        width: 275px;
+        width: 275px !important;
+    }
+    @-webkit-keyframes rightbottomtop {
+        0% {
+            -webkit-transform: translate(10px, -20px);
+        }
+        20% {
+            -webkit-transform: translate(20px, -45px);
+        }
+        40% {
+            -webkit-transform: translate(30px, -60px);
+        }
+        60% {
+            -webkit-transform: translate(40px, -70px);
+        }
+        80% {
+            -webkit-transform: translate(30px, -60px);
+        }
+        90% {
+            -webkit-transform: translate(20px, -45px);
+        }
+        100% {
+            -webkit-transform: translate(10px, -20px);
+        }
     }
 }
 
@@ -1894,6 +1926,11 @@ footer {
         width: 200px;
         font-size: 12px;
         padding: 15px 8px 15px 15px;
+    }
+    .custommer .customer-bg-img .first-img .astronaut {
+        width: 135px;
+        left: 40%;
+        top: 19%;
     }
     /* Start Enterprise & Startup */
     .startup {
@@ -1927,12 +1964,15 @@ footer {
         top: 6px;
     }
     .custommer .customer-bg-img .first-img .customer-img-curve {
-        bottom: -51px;
+        bottom: -20px;
     }
     .custommer .customer-bg-img .first-img .astronaut {
-        left: 39%;
-        width: 120;
-        top: 18.5%;
+        left: 41.5%;
+        width: 96px;
+        top: 17.7%;
+    }
+    .custommer .customer-bg-img .first-img .astronaut-heart {
+        width: 40px;
     }
     .custommer .customer-bg-img .first-img .all-customer-img img {
         width: 70px;
@@ -2063,10 +2103,18 @@ footer {
     }
     /* Start About */
     .about .img-turn img {
-        width: 275px;
+        width: 275px !important;
     }
     .about .content-turn .about-content {
         margin-top: .1rem;
+    }
+}
+
+@media (min-width:381px) and (max-width:512px) {
+    .custommer .customer-bg-img .first-img .astronaut {
+        left: 41.5%;
+        width: 82px;
+        top: 17.7%;
     }
 }
 
@@ -2115,6 +2163,33 @@ footer {
     /* Start Our Process */
     .list-items .li-content {
         margin-left: -32px;
+    }
+    /* Start About */
+    .about .img-turn img {
+        width: 200px !important;
+    }
+    @-webkit-keyframes rightbottomtop {
+        0% {
+            -webkit-transform: translate(10px, -15px);
+        }
+        20% {
+            -webkit-transform: translate(20px, -25px);
+        }
+        40% {
+            -webkit-transform: translate(30px, -30px);
+        }
+        60% {
+            -webkit-transform: translate(40px, -40px);
+        }
+        80% {
+            -webkit-transform: translate(30px, -30px);
+        }
+        90% {
+            -webkit-transform: translate(20px, -25px);
+        }
+        100% {
+            -webkit-transform: translate(10px, -15px);
+        }
     }
 }
 
