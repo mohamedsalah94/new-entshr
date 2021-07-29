@@ -1654,7 +1654,7 @@ footer {
         width: 3px;
         right: none !important;
         left: 50% !important;
-        top: -241px;
+        top: -200px;
         z-index: -2;
     }
     .list-items .li-content {
@@ -1849,7 +1849,7 @@ footer {
         width: 3px;
         right: none !important;
         left: 50% !important;
-        top: -241px;
+        top: -200px;
         z-index: -2;
     }
     .list-items .li-content {
@@ -2047,7 +2047,7 @@ footer {
         width: 3px;
         right: none !important;
         left: 50% !important;
-        top: -241px;
+        top: -200px;
         z-index: -2;
     }
     .list-items .li-content {
@@ -2067,6 +2067,54 @@ footer {
     }
     .about .content-turn .about-content {
         margin-top: .1rem;
+    }
+}
+
+@media (max-width: 380px) {
+    /* Start Customer */
+    .custommer .customer-bg-img .first-img .customer-img-curve {
+        bottom: -18px;
+    }
+    .custommer .customer-bg-img .first-img .astronaut {
+        left: 40%;
+        width: 62px;
+        top: 18.5%;
+    }
+    /* Start Our Word */
+    .ourwork .ourwork-header .header-content h2 {
+        font-size: 28px;
+    }
+    .ourwork .ourwork-header .header-content h3 {
+        font-size: 17px;
+    }
+    .ourwork .ourwork-header .header-content h4 {
+        font-size: 19px;
+        line-height: 35px;
+    }
+    /* Start Enterprise && Startuo */
+    .startup .shap-enterprise-startup {
+        left: -90%;
+        top: -440px;
+        width: 288px;
+        height: 790px;
+    }
+    .enterprise .shap-enterprise-startup {
+        width: 288px;
+        height: 790px;
+        background-color: #C51E3C;
+        transform: rotate( -54deg);
+        position: absolute;
+        right: -72%;
+        top: -350px;
+        border-radius: 200px;
+    }
+    .enterprise .circle {
+        left: -275px;
+        top: 211px;
+    }
+    /* Start Our Process */
+    .list-items .li-content {
+        margin-left: -32px;
     }
 }
 
