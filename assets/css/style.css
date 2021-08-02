@@ -125,6 +125,21 @@ form .contactus-btn,
     font-family: Karla-Bold;
 }
 
+.about,
+.ourprocess,
+.ourservices {
+    top: -150px;
+}
+
+.enterprise,
+.startup {
+    top: -100px;
+}
+
+.ourwork {
+    top: -50px;
+}
+
 
 /* 5 Columns */
 
@@ -227,14 +242,16 @@ form .contactus-btn,
 #particles-js {
     position: relative;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; update */
+    height: 120vh;
     background-image: url("../img/header/Path\ 23.png");
     background-repeat: no-repeat;
     /* background-position: 50% 90%; */
     /* background-position: 38% 95%; */
     /* background-position: 45% 90%; */
-    background-position: 1% 98%;
+    /* background-position: 1% 98%; update */
     /* background-position: 1% 71%; */
+    background-position: 5% 98%;
     /* overflow: hidden; */
     overflow-x: clip;
 }
@@ -286,7 +303,8 @@ form .contactus-btn,
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: flex-end;
+    /* align-content: flex-end; update */
+    align-content: space-around;
     justify-content: space-between;
     margin-top: 85px;
     align-items: center;
@@ -353,7 +371,8 @@ form .contactus-btn,
     position: absolute;
     left: -34px;
     /* top: 110px; */
-    top: 181px;
+    /* top: 181px; update */
+    top: 205px;
 }
 
 #particles-js .right-img-kawkab img {
@@ -371,7 +390,8 @@ form .contactus-btn,
     font-weight: 500;
     background-color: #F69508;
     color: #fff;
-    transform: translate(0, -195px);
+    /* transform: translate(0, -195px); update*/
+    transform: translate(0, -165px);
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -629,6 +649,7 @@ form .contactus-btn,
 
 .ourservices {
     position: relative;
+    overflow: hidden;
 }
 
 .ourservices .ourservices-header-img {
@@ -712,7 +733,7 @@ form .contactus-btn,
 .enterprise,
 .startup {
     overflow: hidden;
-    padding: 100px 0 0 0;
+    padding: 100px 0 25px 0x;
     /* top: -100px; */
     position: relative;
 }
@@ -907,6 +928,7 @@ form .contactus-btn,
 .ourwork img {
     transition: all 1.5s;
     width: 100%;
+    object-fit: cover;
 }
 
 .ourwork img:hover {
@@ -1518,6 +1540,18 @@ footer {
     }
 }
 
+@media (max-width: 1150px) {
+    #particles-js .scroll-down {
+        transform: translate(0, -180px);
+    }
+}
+
+@media (max-width: 1080px) {
+    #particles-js .scroll-down {
+        transform: translate(0, -200px);
+    }
+}
+
 @media (max-width: 992px) {
     /* Start Customer */
     .custommer .customer-bg-img .first-img .astronaut {
@@ -1685,6 +1719,15 @@ footer {
 }
 
 @media (max-width: 767.98px) {
+    /* Start General */
+    .about,
+    .ourprocess,
+    .ourservices,
+    .enterprise,
+    .startup,
+    .ourwork {
+        top: 0;
+    }
     /* Start Footer */
     .third-footer .row {
         margin-top: 20px;
@@ -4165,4 +4208,12 @@ footer {
     width: 100%;
     margin: 0 auto;
     position: relative;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 102, 203);
 }
