@@ -2243,3 +2243,13 @@ span.ruby-c-content {
         color: #666
     }
 }
+
+ul.ruby-menu>li.ruby-menu-mega-blog>div>ul.ruby-menu-mega-blog-nav:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    right: 30px;
+    background: -webkit-linear-gradient(top, rgba(204, 204, 204, 0) 0%, rgba(204, 204, 204, 0.48) 24%, rgba(204, 204, 204, 1) 50%, rgba(204, 204, 204, 0.42) 79%, rgba(204, 204, 204, 0) 100%);
+}

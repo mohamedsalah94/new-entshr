@@ -140,6 +140,10 @@ form .contactus-btn,
     top: -50px;
 }
 
+.ourservices {
+    padding: 50px 0;
+}
+
 
 /* 5 Columns */
 
@@ -391,7 +395,8 @@ form .contactus-btn,
     background-color: #F69508;
     color: #fff;
     /* transform: translate(0, -195px); update*/
-    transform: translate(0, -165px);
+    /* transform: translate(0, -165px); 2 updte */
+    transform: translate(0, -75px);
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -733,7 +738,7 @@ form .contactus-btn,
 .enterprise,
 .startup {
     overflow: hidden;
-    padding: 100px 0 25px 0x;
+    padding: 100px 0 25px 0;
     /* top: -100px; */
     position: relative;
 }
